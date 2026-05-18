@@ -65,7 +65,6 @@ A custom HTML webpage was hosted and made accessible publicly using the VM's pub
 
 # Screenshots:
 # Resource group:
-<img width="1462" height="662" alt="virtual-network" src="https://github.com/user-attachments/assets/3f329869-e073-4032-b086-b706e4d28cc0" />
 <img width="1452" height="810" alt="resource-group" src="https://github.com/user-attachments/assets/ef3706e8-cafe-4539-af90-0d539c442738" />
 
 # Virtual Network

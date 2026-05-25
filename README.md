@@ -107,5 +107,28 @@ Allowed ports for Backend VM:
 ## Backend Database Communication
 <img width="767" height="185" alt="backend-vm" src="https://github.com/user-attachments/assets/15e35cf0-498b-4682-bd61-e420bf693ead" />
 
+# VERSION 2
+## HTTPS/TLS Security Implementation
 
+To improve web security, HTTPS was configured on the frontend Apache web server using a self-signed SSL certificate.
+
+The website communication was upgraded from HTTP (port 80) to HTTPS (port 443), enabling encrypted communication between the client browser and the Azure frontend VM.
+
+## Security Concepts Implemented
+- TLS/SSL encryption
+- HTTPS secure communication
+- Apache SSL module configuration
+- Self-signed certificate generation
+- Port 443 firewall configuration
+- Encrypted browser-server communication
+
+## Outcome
+The frontend web application now supports secure encrypted communication, demonstrating foundational web security and cloud security practices used in real-world environments.
+
+## Screenshots
+### Browser using HTTPS
+<img width="1905" height="947" alt="https-website" src="https://github.com/user-attachments/assets/d65a0aa7-3ff4-4df6-85a9-f7ff176e7301" />
+
+### Port 443 NSG Rule
+<img width="1456" height="168" alt="nsg-rules" src="https://github.com/user-attachments/assets/6ea52586-618b-4175-b5ff-6bd9f58f7a2d" />
 
